@@ -1,0 +1,183 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+html, body{
+    width:100%;
+    overflow-x:hidden;
+    }
+body{
+    background-color:  white;
+}
+h1{
+    font-size: 9rem;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Libre Baskerville', serif;
+}
+p{
+    font-size: 5rem;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Libre Baskerville', serif;
+   line-height: 2;
+}
+#home{
+    
+    height: 100vh;
+    
+}
+
+
+.About{
+    height: auto;
+    display: flex;  
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #a652fe15;
+    
+}
+.me{    
+    border-radius: 50%;
+}
+.paragraph{
+    font-size: 1.5rem;
+    font-family: "Merriweather", serif;
+    text-align: center;
+}
+
+.low img{
+   
+        height: 239px;
+        width: 325px;
+        object-fit: cover;
+    /* height: 280px;
+    width: 300px;  */
+   
+}
+
+.text{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 16px;
+    padding: 10px;
+}
+.Project-container{
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin: 30px;
+    justify-content: center;
+    
+}
+.Project{
+    border: solid #a652fe80 5px;
+    border-radius: 15px;
+    align-items: center;
+    padding: 10px;
+    align-content: center;
+    
+}
+
+
+h3{
+    text-align: center;
+}
+.container-skills{
+    display: flex;
+    gap: 50px;
+}
+h2{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.7rem;
+}
+span{
+    font-size: 1.5rem;
+}
+.skills{
+
+    padding: 10px;
+    
+}
+.head{
+    padding: 30px;
+    
+}
+.color-1{
+    background-color: #a652fe15;
+}
+.images{
+    margin-bottom: 50px;
+}
+.Connect{
+    display: flex;
+    gap: 50px;
+   
+}
+
+
+@media (max-width:1200px){
+
+
+    .nav-link{
+        font-size: 1.2em;
+    }
+    .Project-container{
+       
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+        
+    }
+
+    .Project p{
+        font-size: 1.5rem;
+    }
+    .low img{
+        /* width: auto; */
+        height: 200px;
+    }
+    .low>h2{
+        text-align: center;
+        font-size: 2.2rem;
+    }
+
+
+}
+
+@media (max-width:482px) 
+{   
+    .container-skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .head > h2{
+        margin-left: 30px;
+        margin-bottom: 25px;
+        margin-top: 20px;
+        text-align: center;
+        font-size: 2.2rem;
+    }
+    .Connect{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    span{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .me{
+        height: 60%;
+        width: 60%;
+    }
+   
+}  
+
